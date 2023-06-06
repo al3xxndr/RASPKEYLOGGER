@@ -74,4 +74,9 @@ Remember to replace `keystrokes.log` with the actual filename of the file you wa
 
 If you prefer a graphical interface to open and view the file, you can use a file manager application like `Thunar` or `PCManFM`, depending on your Raspberry Pi distribution.
 
+DEPENDENCIES / ISSUES:
+1. sudo apt-get install python3
+2. pip install pynput
+3. If you are remote accessing via termius, before entering "python <keylogger file>" enter the command export Display=:0
+
 
